@@ -1,0 +1,12 @@
+.header {
+    display: flex;
+    justify-content: center;
+}
+
+.logo-img_container {
+    margin: 30px;
+}
+
+.logo-img {
+    width: 200px;
+}

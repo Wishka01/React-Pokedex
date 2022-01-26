@@ -1,0 +1,28 @@
+.pagination {
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.pagination-btn {
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F73F52;
+    color: #FFF;
+    border-radius: 25px;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+    box-shadow: 0px 2px 5px #000;
+    transition: all .3s ease-out;
+}
+
+.pagination-txt {
+    text-align: center;
+    margin: 0 10px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+}

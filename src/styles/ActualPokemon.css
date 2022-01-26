@@ -1,0 +1,265 @@
+.actualPokemon_container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.actualPokemon_card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    width: 25%;
+    height: 80%;
+    border-radius: 10px;
+    background-color: #F73F52;
+    box-shadow: 0px 2px 5px #000;
+}
+
+.back-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 15px;
+    left: 0px;
+    width: 60px;
+    height: 40px;
+    outline: none;
+    background-color: #7986C7;
+    color: #FFF;
+    cursor: pointer;
+    border: 0;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    box-shadow: 1px 2px 5px #000;
+    transition: all .2s ease-out;
+}
+
+.back-btn:hover {
+    box-shadow: 1px 4px 5px #000;
+    top: 13px;
+}
+
+.back-btn span {
+    font-size: 2rem;
+}
+
+.img_container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    width: 64%;
+    height: 29%;
+    border-radius: 10px;
+    background-image: url("https://wallpapercave.com/wp/wp1902707.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    box-shadow: 1px 2px 5px #000;
+    border: 1px solid #000;
+    margin-top: 50px;
+}
+
+.img {
+    width: 150px;
+    height: 150px;
+}
+
+.body_container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 75%;
+    height: 55%;
+    margin-top: 25px;
+    border-radius: 5px;
+    border: 2px solid #000;
+    box-shadow: 0px 2px 5px #000;
+    background-color: #7986C7;
+    overflow: hidden;
+}
+
+.pokemon-name_container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 105%;
+    height: 45px;
+    color: #000;
+    background-color: #ddd;
+    border-radius: 50px;
+    border-top-right-radius: 0px;
+    border-top-left-radius: 0px;
+    box-shadow: 0px 2px 5px #3c3f49;
+    font-family: 'Roboto', sans-serif;
+    border-bottom: 2px solid #000;
+}
+
+.number {
+    font-weight: 500;
+}
+
+.name {
+    text-transform: capitalize;
+    font-weight: 500;
+    margin-left: 30px;
+}
+
+.pokemon-info_container {
+    width: 100%;
+    height: 100%;
+    margin-top: 10px;   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.types_container {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0 5px;
+}
+
+.type {
+    width: 100px;
+    padding: 5px 15px;
+    border-radius: 25px;
+    background-color: #ddd;
+    text-transform: capitalize;
+    text-align: center;
+    text-shadow: -1px 0 black, 0 2px black, 1px 0 black, 0 -1px black;
+    font-family: 'Fredoka One', cursive;
+    letter-spacing: 3px;
+    box-shadow: 0px 2px 5px #000;
+}
+
+.normal2 {
+    color: #A6A877;
+}
+
+.grass2 {
+    color: #77C850;
+}
+
+.ground2 {
+    color: #DEC068;
+}
+
+.fighting2 {
+    color: #BF3028;
+}
+
+.rock2 {
+    color: #B8A137;
+}
+
+.steel2 {
+    color: #B9B7CF;
+}
+
+.fire2 {
+    color: #EE7F30;
+}
+
+.electric2 {
+    color: #F7CF2F;
+}
+
+
+.flying2 {
+    color: #A98FF0;
+}
+
+.psychic2 {
+    color: #FC5487;
+}
+
+.bug2 {
+    color: #A8B720;
+}
+
+.dragon2 {
+    color: #6F38F6;
+}
+
+.water2 {
+    color: #678FEE;
+}
+
+.ice2 {
+    color: #98D5D6;
+}
+
+.poison2 {
+    color: #A03FA0;
+}
+
+.dark2 {
+    color: #725847;
+}
+
+.ghost2 {
+    color: #6E5896;
+}
+
+.fairy2 {
+    color: #FEAEC7;
+}
+
+.weight_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.height_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.info {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 200px;
+    height: 30px;
+    background-color: #ddd;
+    border-radius: 25px;
+    text-align: center;
+    margin-top: 20px;
+    box-shadow: 0px 2px 5px #000;
+    font-weight: 500;
+}
+
+.abilities-txt {
+    width: 150px;
+    height: 60px;
+    margin-top: 30px;
+}
+
+.abilities_container {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.ability {
+    width: auto;
+    margin-top: 20px;
+    padding: 5px 30px;
+    border-radius: 25px;
+    background-color: #ccc;
+    color: #000;
+    text-transform: capitalize;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    letter-spacing: 2px;
+    box-shadow: 0px 2px 5px #000;
+}

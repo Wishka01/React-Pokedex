@@ -1,0 +1,36 @@
+.searchbar {
+    display: flex;
+    justify-content: center;
+}
+
+.searchbar input[type="text"] {
+    width: 23rem;
+    height: 30px;
+    margin: 0 10px;
+    outline: none;
+    border-radius: 5px;
+    border: 0;
+    box-shadow: 0px 2px 5px #000;
+    font-size: 1rem;
+    padding: 5px 15px;
+}
+
+.searchbar button {
+    width: 4rem;
+    height: 40px;
+    padding: 5px 10px;
+    border-radius: 20px;
+    border: 0;
+    box-shadow: 0px 2px 5px #000;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F73F52;
+} 
+
+.searchbar button i {
+    font-size: 30px;
+    color: #f6f6f6;
+    transition: font-size .2s ease-out;
+}

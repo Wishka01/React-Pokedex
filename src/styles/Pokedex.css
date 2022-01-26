@@ -1,0 +1,12 @@
+.pokedex {
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pokedex-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 400px);
+    gap: 30px;
+}
