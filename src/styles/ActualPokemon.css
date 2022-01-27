@@ -10,8 +10,8 @@
     flex-direction: column;
     align-items: center;
     position: relative;
-    width: 25%;
-    height: 80%;
+    width: 32.5rem;
+    height: 45rem;
     border-radius: 10px;
     background-color: #F73F52;
     box-shadow: 0px 2px 5px #000;
@@ -56,7 +56,7 @@
     background-image: url("https://wallpapercave.com/wp/wp1902707.jpg");
     background-position: center;
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
     box-shadow: 1px 2px 5px #000;
     border: 1px solid #000;
     margin-top: 50px;
@@ -262,4 +262,8 @@
     font-weight: 500;
     letter-spacing: 2px;
     box-shadow: 0px 2px 5px #000;
+}
+
+@media (max-width: 750px) {
+    
 }

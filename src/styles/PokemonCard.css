@@ -188,3 +188,30 @@
     border: 2px solid #FEAEC7;
 }
 
+@media (max-width: 750px) {
+    .pokemon-card {
+        width: 300px;
+        overflow: hidden;
+        margin: auto;
+    }
+
+    .pokemon-body {
+        width: 100%;
+        padding: 0;
+    }
+
+    .pokemon-header {
+        justify-content: space-between;
+        padding: 0 10px;
+    }
+
+    .pokemon-types_container {
+        width: 100%;
+        justify-content: space-evenly;
+    }
+
+    .pokemon-type {
+        width: 50px;
+        letter-spacing: 0;
+    }
+}

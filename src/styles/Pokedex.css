@@ -1,5 +1,6 @@
 .pokedex {
     margin-top: 15px;
+    padding-bottom: 50px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -9,4 +10,21 @@
     display: grid;
     grid-template-columns: repeat(3, 400px);
     gap: 30px;
+}
+
+@media (max-width: 1300px) {
+    .pokedex-grid {
+        grid-template-columns: auto auto;
+        gap: 10px;
+    }
+}
+
+@media (max-width: 750px) {
+    .pokedex-grid {
+        grid-template-columns: 300px;
+        justify-content: center;
+        gap: 0;
+        row-gap: 15px;
+        align-items: center;
+    }
 }

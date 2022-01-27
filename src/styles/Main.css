@@ -44,3 +44,29 @@
 .limit-box-lbl {
     font-weight: 500;
 }
+
+@media (max-width: 1300px) {
+    .searchbar_container {
+        width: 750px;
+    }
+
+    .limit-box_container {
+        width: 720px;
+    }
+}
+
+@media (max-width: 750px) {
+    .main {
+        width: 100%;
+    }
+    .searchbar_container {
+        width: 100%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .limit-box_container {
+        display: none;
+    }
+}
